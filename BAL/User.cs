@@ -11,10 +11,9 @@ namespace LibryManagement.BAL
         private int userId;
         private String userName;
         private String password;
+        private List<Book> bought = new List<Book>();
 
-
-
-        public void User(int id)
+        public User(int id)
         {
             this.userId = id;
             userSize += 1;
@@ -33,6 +32,11 @@ namespace LibryManagement.BAL
         public void Login2(String uId, String pwd) // return type boolean
         {
             //TODO: Call Login Procedure and return the value is  
+        }
+        public void ReserveBook(Book resbook)
+        {
+            this.bought.Add(resbook);
+
         }
 
        
