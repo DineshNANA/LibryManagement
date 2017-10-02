@@ -32,7 +32,7 @@ namespace LibryManagement.BAL
 
         public void Login2(String uId, String pwd) // return type boolean
         {
-            //TODO: Call Login Procedure and return the value is login sucess or false
+            //TODO: Call Login Procedure and return the value is  
         }
 
        
